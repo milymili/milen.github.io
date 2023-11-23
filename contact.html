@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/styles/style.css?v=5495894" id="css-bar">
+</head>
+<body>
+    <div class="nav-bar" id="navbar">
+        <ul class="nav-items">
+             <a href="index.html">Home </a>
+             <a href="about-me.html">About Me </a>
+             <a href="projects.html">Projects </a>
+             <a href="#">Contact Me </a>
+        </ul>
+    </div>
+    <section id="content">
+        <div class="row">
+            <div class="col-2">
+                <ul>
+                    <li>Location: Kampala</li>
+                    <li>Email: mily.mili@yahoo.com</li>
+                    <li>Mobile: 0759 837980</li>
+                </ul>
+            </div>
+
+            <div class="col-8">
+                <h2>Leave Me a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="">Name</label><br>
+                        <input type="text" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email&nbsp;<span style="color: red;">*</span></span></label><br>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Message&nbsp;<span style="color: red;">*</span></span></label><br>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn success" style="margin: 20px;">Submit</button>
+                </form>
+            </div>
+        </div>
+    
+    
+</section>
+</body>
+<style>
+    /* .col ul{
+        margin-top: 100px;
+    } */
+    li{
+        list-style: none;
+    }
+</style>
+<script src="assets/scripts/script.js"></script>
+<script>
+    // cssVersion('website/contact.html')
+    document.addEventListener('ready',function(){
+        alert('loaded')
+    })
+</script>
+</html>
